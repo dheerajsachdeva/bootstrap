@@ -2,7 +2,7 @@
 
 
 
-  <h3><b>Portfolio for Mobile and Desktop Project README FILE</b></h3>
+  <h3><b>Portfolio with Bootstrap</b></h3>
 
 </div>
 
@@ -68,7 +68,7 @@
 
 - **[Portfolio Project is posting mobile and Desktop design of Software Development Portfolio]**
 - **[Mobile and Desktop Version]**
-- **[using CSS - Using Flex and other properties]**
+- **[using Bootstrap]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/dheerajsachdeva/Portfolio-Mobile-First)
+- [Live Demo Link](https://dheerajsachdeva.github.io/bootstrap/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,13 +117,28 @@ You can deploy this project using:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="DHEERAJ SACHDEVA"></a>
+<a name="Oussama Elabdiouo"></a>
+<a name="Besufekad Alemu"></a>
 
 
-👤 **Author**
+👤 **Author - Dheeraj**
 
 - GitHub: [@githubhandle](https://github.com/dheerajsachdeva)
 - Twitter: [@twitterhandle](https://twitter.com/dheerajarya)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dheeraj-sachdeva-502b2b8/)
+
+**Author - Oussama Elabdioui**
+
+- GitHub: [@githubhandle](hhttps://github.com/codedit334)
+- Twitter: [@twitterhandle](https://twitter.com/oussedit)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oussama-elabdioui-4677a41b6/)
+
+**Author - Besufekad Alemu**
+
+- GitHub: [@githubhandle](https://github.com/Besufekad-HAZ)
+- Twitter: [@twitterhandle](https://twitter.com/BesufekadAlemu7)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/besura)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,7 +160,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/dheerajsachdeva/Portfolio-Mobile-First/issues]
+Feel free to check the [https://github.com/dheerajsachdeva/bootstrap]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
