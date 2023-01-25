@@ -1,70 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio in Bootstrap design</title>
+  </head>
 
-<head>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-  <title>Portfolio in Bootstrap design</title>
-</head>
-
-<body class="bg-light-grey-600" style="font-family: 'Poppins', sans-serif; background-color: #E5E5E5;">
-
-  <header style="">
-    <nav class="navbar navbar-expand-lg bg-transparent row fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand text-primary mx-5" style="font-weight: 700" href="#">My Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- <div class="collapse navbar-collapse " id="navbarSupportedContent"> -->
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mx-5 px-5 g-9 ">
-            <li class="nav-item me-3 ">
-              <a class="nav-link active text-primary" aria-current="page" href="#portfolio">Portfolio</a>
+  <body
+    class="bg-light-grey-600"
+    style="font-family: 'Poppins', sans-serif; background-color: #e5e5e5"
+  >
+    <header style="">
+      <nav class="navbar navbar-expand-lg bg-transparent row fixed-top">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand text-primary mx-5"
+            style="font-weight: 700"
+            href="#"
+            >My Logo</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- <div class="collapse navbar-collapse " id="navbarSupportedContent"> -->
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 mx-5 px-5 g-9">
+            <li class="nav-item me-3">
+              <a
+                class="nav-link active text-primary"
+                aria-current="page"
+                href="#portfolio"
+                >Portfolio</a
+              >
             </li>
-            <li class="nav-item me-3 ">
+            <li class="nav-item me-3">
               <a class="nav-link text-primary" href="#about">About</a>
             </li>
             <li class="nav-item me-3 col">
               <a class="nav-link text-primary" href="#contact">Contact</a>
             </li>
-
           </ul>
-        <!-- </div> -->
+          <!-- </div> -->
+        </div>
+      </nav>
+    </header>
+
+    <section
+      id="sec1"
+      class="container-xxl bg-light"
+      style="
+        background-image: url(./img/desktop_header_bg.svg);
+        background-repeat: no-repeat;
+        background-size: 85%;
+        background-position-y: 8vh;
+        background-position-x: 10vh;
+        border-bottom-left-radius: 150px;
+      "
+    >
+      <div
+        class="container"
+        style="
+          min-height: 400px;
+          height: 630px !important;
+          padding-top: 200px !important;
+        "
+      >
+        <h1>
+          I’m Alexandra<br />
+          Glad to see you!
+        </h1>
+        <p style="width: 70%">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <h3 class="pre-socials">LET’S CONNECT</h3>
+        <ul class="socials d-inline">
+          <li class="d-inline me-2">
+            <a href="https://twitter.com/oussedit"
+              ><img src="./img/twitter.svg" alt="Twitter"
+            /></a>
+          </li>
+          <li class="d-inline me-2">
+            <a href=""><img src="./img/M.svg" alt="Medium" /></a>
+          </li>
+          <li class="d-inline me-2">
+            <a href="https://github.com/codedit334"
+              ><img src="./img/github.svg" alt="Github"
+            /></a>
+          </li>
+          <li class="d-inline me-2">
+            <a href=""><img src="./img/victory.svg" alt="V" /></a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </section>
+    <section id="works" href="" class="">
+      <!-- Work 1 -->
+      <div
+        class="card mb-3 mx-auto p-4 mt-5"
+        style="max-width: 90%; border-radius: 1rem"
+      >
+        <div class="row g-0">
+          <div class="col-md-6" style="border-radius: 20px">
+            <img
+              src="./img/nature_desktop.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1>Tonic</h1>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <h2 class="fs-6 me-4" style="font-weight: 700">CANOPY</h2>
+                </li>
 
-  <section id="sec1" class="container-xxl bg-light"
-    style="background-image: url(./img/desktop_header_bg.svg);background-repeat: no-repeat;background-size: 85%; background-position-y: 8vh;background-position-x: 10vh; border-bottom-left-radius: 150px;">
-    <div class="container" style='min-height: 400px; height: 630px !important; padding-top: 200px !important;'>
-      <h1>I’m Alexandra<br>
-        Glad to see you!</h1>
-      <p style="width: 70%;">I’m a software developer! I can help you build a product , feature or website Look through
-        some of my work and
-        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-      <h3 class="pre-socials">LET’S CONNECT</h3>
-      <ul class="socials d-inline">
-        <li class="d-inline me-2"><a href="https://twitter.com/oussedit"><img src="./img/twitter.svg" alt="Twitter"></a>
-        </li>
-        <li class="d-inline me-2"><a href=""><img src="./img/M.svg" alt="Medium"></a></li>
-        <li class="d-inline me-2"><a href="https://github.com/codedit334"><img src="./img/github.svg" alt="Github"></a>
-        </li>
-        <li class="d-inline me-2"><a href=""><img src="./img/victory.svg" alt="V"></a></li>
-      </ul>
-    </div>
+                <li>
+                  <h3 class="fs-6">
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;Back
+                    End Dev &nbsp; &nbsp;
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;2015
+                  </h3>
+                </li>
+              </ul>
 
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-  </script>
-</body>
+              <p style="font-weight: 600">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
 
+              <ul class="list-unstyled d-flex">
+                <li class="badge rounded-pill bg-primary me-2">html</li>
+                <li class="badge rounded-pill bg-primary me-2">css</li>
+                <li class="badge rounded-pill bg-primary me-2">javascript</li>
+              </ul>
+
+              <input
+                class="btn rounded-pill btn-outline-primary"
+                type="submit"
+                value="See Project"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Work 2 -->
+      <div
+        class="card mb-3 mx-auto p-4 mt-5"
+        style="max-width: 90%; border-radius: 1rem"
+      >
+        <div class="row g-0">
+          <div class="col-md-6 order-2" style="border-radius: 20px">
+            <img
+              src="./img/workimg/work4.svg"
+              class="img-fluid rounded-start"
+              alt="..."
+              style="width: 100%"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1>Tonic</h1>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <h2 class="fs-6 me-4" style="font-weight: 700">CANOPY</h2>
+                </li>
+
+                <li>
+                  <h3 class="fs-6">
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;Back
+                    End Dev &nbsp; &nbsp;
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;2015
+                  </h3>
+                </li>
+              </ul>
+
+              <p style="font-weight: 600">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+
+              <ul class="list-unstyled d-flex">
+                <li class="badge rounded-pill bg-primary me-2">html</li>
+                <li class="badge rounded-pill bg-primary me-2">css</li>
+                <li class="badge rounded-pill bg-primary me-2">
+                  Ruby on rails
+                </li>
+                <li class="badge rounded-pill bg-primary me-2">javascript</li>
+              </ul>
+
+              <input
+                class="btn rounded-pill btn-outline-primary"
+                type="submit"
+                value="See Project"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Work 3 -->
+
+      <div
+        class="card mb-3 mx-auto p-4 mt-5"
+        style="max-width: 90%; border-radius: 1rem"
+      >
+        <div class="row g-0">
+          <div class="col-md-6" style="border-radius: 20px">
+            <img
+              src="./img/workimg/work1.svg"
+              class="img-fluid rounded-start"
+              alt="..."
+              style="width: 100%"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1>Tonic</h1>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <h2 class="fs-6 me-4" style="font-weight: 700">CANOPY</h2>
+                </li>
+
+                <li>
+                  <h3 class="fs-6">
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;Back
+                    End Dev &nbsp; &nbsp;
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;2015
+                  </h3>
+                </li>
+              </ul>
+
+              <p style="font-weight: 600">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+
+              <ul class="list-unstyled d-flex">
+                <li class="badge rounded-pill bg-primary me-2">html</li>
+                <li class="badge rounded-pill bg-primary me-2">css</li>
+                <li class="badge rounded-pill bg-primary me-2">
+                  Ruby on rails
+                </li>
+                <li class="badge rounded-pill bg-primary me-2">javascript</li>
+              </ul>
+
+              <input
+                class="btn rounded-pill btn-outline-primary"
+                type="submit"
+                value="See Project"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Work 4 -->
+      <div
+        class="card mb-3 mx-auto p-4 mt-5"
+        style="max-width: 90%; border-radius: 1rem"
+      >
+        <div class="row g-0">
+          <div class="col-md-6 order-2" style="border-radius: 20px">
+            <img
+              src="./img/workimg/work2.svg"
+              class="img-fluid rounded-start"
+              alt="..."
+              style="width: 100%"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1>Tonic</h1>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <h2 class="fs-6 me-4" style="font-weight: 700">CANOPY</h2>
+                </li>
+
+                <li>
+                  <h3 class="fs-6">
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;Back
+                    End Dev &nbsp; &nbsp;
+                    <img src="./img/workimg/Counter.svg" /> &nbsp; &nbsp;2015
+                  </h3>
+                </li>
+              </ul>
+
+              <p style="font-weight: 600">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+
+              <ul class="list-unstyled d-flex">
+                <li class="badge rounded-pill bg-primary me-2">html</li>
+                <li class="badge rounded-pill bg-primary me-2">css</li>
+                <li class="badge rounded-pill bg-primary me-2">
+                  Ruby on rails
+                </li>
+                <li class="badge rounded-pill bg-primary me-2">javascript</li>
+              </ul>
+
+              <input
+                class="btn rounded-pill btn-outline-primary"
+                type="submit"
+                value="See Project"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
